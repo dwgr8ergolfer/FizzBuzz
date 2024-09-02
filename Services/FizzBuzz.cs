@@ -14,7 +14,7 @@ public class FizzBuzz: IFizzBuzz
                 var isFizzBuzz = isFizz && isBuzz;
                 if (isFizzBuzz)
                 {
-                    results.Add("FizzBuzz");
+                    results.Add("FizzBuzz.App");
                 }
                 else if (isFizz)
                 {

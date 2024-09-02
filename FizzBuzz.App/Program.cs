@@ -6,20 +6,20 @@ var host = BuildHost();
 await host.StartAsync();    
 
 // Logger is a better logging tool than Console.WriteLine line but for this simple program Console.WriteLine works
-Console.WriteLine("Welcome to the amazing Galen Healthcare FizzBuzz program!");
+Console.WriteLine("Welcome to the amazing Galen Healthcare FizzBuzz.App program!");
 Console.WriteLine("You can close the program at any time by typing Q.");
 
 var runProgram = true;
 
 while (runProgram)
 {
-    Console.WriteLine("Please enter the number you would like to FizzBuzz up to:");
+    Console.WriteLine("Please enter the number you would like to FizzBuzz.App up to:");
     var input = Console.ReadLine();
     if (input != null)
     {
         if (int.TryParse(input, out var numberToFizzBuzz))
         {
-            if (numberToFizzBuzz < 101 && numberToFizzBuzz > 0)
+            if (numberToFizzBuzz > 0 && numberToFizzBuzz < 101)
             {
                 var fizzBuzzService = host.Services.GetService<IFizzBuzz>();
                 var results = fizzBuzzService!.CalculateFizzBuzz(numberToFizzBuzz);
