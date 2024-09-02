@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.App", "FizzBuzz.App\FizzBuzz.App.csproj", "{E58AC08F-11EC-42FF-82EB-ED151AEA4439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5B6F32A7-3F35-48A3-992E-3E7C73D79457}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{5B6F32A7-3F35-48A3-992E-3E7C73D79457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{892E29AC-648E-48F0-ABE7-8256E52B25AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Services", "FizzBuzz.Services\FizzBuzz.Services.csproj", "{892E29AC-648E-48F0-ABE7-8256E52B25AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

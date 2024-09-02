@@ -36,7 +36,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Services\Services.csproj" />
+      <ProjectReference Include="..\FizzBuzz.Services\FizzBuzz.Services.csproj" />
     </ItemGroup>
 
 </Project>
