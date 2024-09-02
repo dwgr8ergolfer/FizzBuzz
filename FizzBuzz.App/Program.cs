@@ -42,12 +42,12 @@ while (runProgram)
         else
         {
             Console.WriteLine("Invalid input detected.");
-        }  
+        }
     }
     else
     {
         Console.WriteLine("No input detected.");
-    }   
+    }
 }
 
 static IHost BuildHost()
@@ -55,6 +55,11 @@ static IHost BuildHost()
     return Host.CreateDefaultBuilder()
         .ConfigureServices(services =>
         {
+            // https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-usage
+            // https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences
+            // Transient objects are always different. A new instance is provided to every controller and service.
+            // Scoped objects are the same within a request and are different across different requests.
+            // Singleton objects are the same for every object and request. (THIS MAKES SENSE HERE BECAUSE WE DO NOT NEED TO RE INSTANCE THE SERVICE EVERY REQUEST)
             services.AddSingleton<IFizzBuzz, FizzBuzz.Services.FizzBuzz>();
         }).Build();
 }
