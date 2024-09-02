@@ -29,12 +29,8 @@ public class FizzBuzz: IFizzBuzz
                     results.Add(i.ToString());
                 }
             }
-        
             return results;   
         }
-        else
-        {
-            return Enumerable.Empty<string>();
-        }
+        return [];
     }
 }
