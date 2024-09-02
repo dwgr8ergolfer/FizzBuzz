@@ -3,9 +3,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
 var host = BuildHost();
-await host.StartAsync();    
-
+await host.StartAsync();
 // Logger is a better logging tool than Console.WriteLine line but for this simple program Console.WriteLine works
+var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production";
+Console.WriteLine($"Using environment: {environment}");
 Console.WriteLine("Welcome to the amazing Galen Healthcare FizzBuzz.App program!");
 Console.WriteLine("You can close the program at any time by typing Q.");
 
@@ -19,7 +20,7 @@ while (runProgram)
     {
         if (int.TryParse(input, out var numberToFizzBuzz))
         {
-            if (numberToFizzBuzz > 0 && numberToFizzBuzz < 101)
+            if (numberToFizzBuzz > 0 && numberToFizzBuzz < 100)
             {
                 var fizzBuzzService = host.Services.GetService<IFizzBuzz>();
                 var results = fizzBuzzService!.CalculateFizzBuzz(numberToFizzBuzz);
