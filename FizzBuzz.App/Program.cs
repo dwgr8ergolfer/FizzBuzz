@@ -19,7 +19,7 @@ while (runProgram)
     {
         if (int.TryParse(input, out var numberToFizzBuzz))
         {
-            if (numberToFizzBuzz > 0 && numberToFizzBuzz < 100)
+            if (numberToFizzBuzz > 0 && numberToFizzBuzz < 101)
             {
                 var fizzBuzzService = host.Services.GetService<IFizzBuzz>();
                 var results = fizzBuzzService!.CalculateFizzBuzz(numberToFizzBuzz);
