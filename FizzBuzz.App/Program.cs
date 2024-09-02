@@ -8,13 +8,12 @@ var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 // Logger is a better logging tool than Console.WriteLine line but for this simple program Console.WriteLine works
 Console.WriteLine($"Using environment: {environment}");
 Console.WriteLine("Welcome to the amazing Galen Healthcare FizzBuzz.App program!");
-Console.WriteLine("You can close the program at any time by typing Q.");
 
 var runProgram = true;
 
 while (runProgram)
 {
-    Console.WriteLine("Please enter the number you would like to FizzBuzz.App up to:");
+    Console.WriteLine("Close the program by entering q or enter the number you would like to FizzBuzz.App up to:");
     var input = Console.ReadLine();
     if (input != null)
     {
