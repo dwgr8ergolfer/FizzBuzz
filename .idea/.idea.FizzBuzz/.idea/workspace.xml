@@ -11,11 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0854e4b9-c26c-4a1d-a73e-4a0a6db2f328" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FizzBuzz.App/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz.App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.App/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz.App/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.App/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz.Services/FizzBuzz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.Services/FizzBuzz.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.FizzBuzz.Services.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.FizzBuzz.executor&quot;: &quot;Debug&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.FizzBuzz.Services.executor": "Run",
+    ".NET Project.FizzBuzz.executor": "Run",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.FizzBuzz">
     <configuration name="FizzBuzz" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/FizzBuzz.App/bin/Debug/net8.0/FizzBuzz.App.exe" />
