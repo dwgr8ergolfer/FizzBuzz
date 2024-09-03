@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0854e4b9-c26c-4a1d-a73e-4a0a6db2f328" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz.App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz.Services/FizzBuzz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.Services/FizzBuzz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz.Tests/FizzBuzzServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.Tests/FizzBuzzServiceTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +167,7 @@
       <workItem from="1725294624930" duration="1264000" />
       <workItem from="1725295906962" duration="2735000" />
       <workItem from="1725302196776" duration="504000" />
-      <workItem from="1725302716079" duration="3459000" />
+      <workItem from="1725302716079" duration="4251000" />
     </task>
     <servers />
   </component>

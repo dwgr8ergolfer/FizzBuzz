@@ -1,5 +1,6 @@
 ﻿namespace FizzBuzz.Services;
 
+//Service class to hold the FizzBuzz "business" logic
 public class FizzBuzz: IFizzBuzz
 {
     public IEnumerable<string> CalculateFizzBuzz(int numberToFizzBuzz)

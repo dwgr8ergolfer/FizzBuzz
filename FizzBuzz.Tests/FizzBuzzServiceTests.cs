@@ -4,7 +4,8 @@ using Microsoft.Extensions.Hosting;
 
 namespace FizzBuzz.Tests;
 
-public class Tests
+//Test class to test the FizzBuzz service
+public class FizzBuzzServiceTests
 {
     private IHost _host;
 

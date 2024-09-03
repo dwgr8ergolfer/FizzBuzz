@@ -15,6 +15,7 @@ while (runProgram)
 {
     Console.WriteLine("Close the program by entering q or enter the number you would like to FizzBuzz.App up to:");
     var input = Console.ReadLine();
+    
     if (input != null)
     {
         if (int.TryParse(input, out var numberToFizzBuzz))
@@ -55,6 +56,7 @@ static IHost BuildHost()
     return Host.CreateDefaultBuilder()
         .ConfigureServices(services =>
         {
+            // Dependency injection
             // https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-usage
             // https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences
             // Transient objects are always different. A new instance is provided to every controller and service.
